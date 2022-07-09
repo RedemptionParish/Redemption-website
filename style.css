@@ -1,0 +1,1551 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.up{
+    background-image: url(hands2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    max-width: 100%;
+    height: 720px;
+    position: relative;
+    top: 4rem;    
+}
+
+.top1{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #00252E;   
+}
+
+.right2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;    
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.church-logo{
+    display: flex;
+}
+
+.right a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+.right a:hover{
+    text-decoration: none;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin-top: 1rem;    
+}
+
+img.logo-gif{
+    width: 50px;
+    margin-left: 1.5rem;
+}
+
+.redeem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 15rem;
+    
+}
+
+
+
+.carousel{
+    margin: 4rem 5% 10rem 5%;
+}
+
+.week{
+    font-family: 'Fira Sans';
+    margin: 6rem 0rem 0rem 0rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.week-words{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1.5rem 22% 2rem 22%;
+}
+
+
+.weekly{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4rem 9% 4rem 9%;
+}
+
+.Sunday, .Tuesday, .Thursday{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Sunday-service, .Tuesday-service, .Thursday-service{
+    font-family: 'Fira Sans';
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.Sunday-txt, .Tuesday-txt, .Thursday-txt{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    text-align: left;
+}
+
+
+/*Here is for about and the like html codes starts HERE!!!*/
+.church-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem; 
+}
+
+.church-img img{
+    width: 70%;
+    height: 35rem;
+
+}
+
+.us{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    text-align: center;
+    margin: 8rem 0rem 2rem 0rem;
+}
+
+.about-words{
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.about-para{
+    text-indent: 4rem;
+    margin: 0% 3% 0% 3%;
+}
+
+.PIC-parish{
+    border: 0px solid rgb(75, 75, 134);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 17%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0.6rem 1.1rem rgba(153, 174, 175, 0.7);
+    margin-left: 20px;
+}
+
+.parish-cont img{
+    width: 8rem;
+    border-radius: 10rem;
+}
+
+/*CSS for about and the like html codes stops HERE!!!*/
+
+
+/*CSS for media and the like html codes starts HERE!!!*/
+
+.vid{
+    margin: 10rem 0rem 6rem 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.video-check{
+    margin-bottom: 3rem;
+}
+
+audio{
+    width: 40%;
+}
+
+.video-check a, .down-sermons a{
+    text-decoration: none;
+    color:navy;
+}
+
+.d-ser, .d-vid{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/*CSS for media and the like html codes stops HERE!!!*/
+
+
+
+footer{
+    background-color: #00252E;
+    height: 26rem;
+}
+
+.empty{
+    background-color: #00252E;
+    height: 2rem;
+}
+
+.church-name-logo{
+    margin-top: 3rem;
+    margin-left: 1.875rem;
+    display: flex;
+    align-items: center;
+}
+
+.log-par img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.church-name{
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.rccg{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.parish{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.contact-us a{
+    color:white;
+}
+
+.contact-us a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.contact-useful{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact, .links{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: rgb(230, 243, 53);
+    margin: 30px 0px 0px 30px;
+}
+
+.location, .phone{
+    margin: 20px 0px 0px 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.loc img, .fone img{
+    margin-right: 20px;
+    width: 18px;
+}
+
+.address{
+    width: 60%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+.media-contact{
+    display: flex;
+    margin: 20px 0px 0px 30px;
+}
+
+.e-mail, .facebook, .whatsapp{
+    margin-right: 10px;
+}
+
+.gmail img{
+    width: 23px;
+    margin-top: 3px;
+}
+
+.fb img, .whatsapp img{
+    width: 23px;
+}
+
+.use-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.use-col a{
+    color: white;
+}
+
+.use-col a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.pic-vid, .blog, .Sermons, .About, .giving{
+    margin: 20px 0px 0px 30px;
+    color: white;
+   
+}
+
+.back-to-top{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.back-to-top a{
+    color: white;
+}
+
+.back-to-top a:hover{
+    text-decoration: none;
+    color:yellow;
+}
+
+
+@media screen and (min-width: 1441px){
+
+    .up{
+        
+        background-image: url(hands2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        height: 1280px;
+        position: relative;
+        top: 4rem;
+    }
+
+    .top{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.8rem;
+        font-size: 1.5rem;    
+    }
+    
+    img.logo-gif{
+        width: 50px;
+        margin-left: 0rem;
+    }
+
+    .carousel{
+        margin: 8rem 0% 7rem 0%;
+    }
+
+    .week{
+        font-family: 'Fira Sans';
+        margin: 13rem 0rem 0rem 0rem;
+        font-weight: 600;
+        text-align: center;
+        font-size: 4.5rem;
+    }
+
+    .week-words{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 2.1rem;
+        text-align: center;
+        margin: 1.8rem 15% 5rem 15%;
+    }
+
+
+    .weekly{
+        display: flex;
+        margin: 0.6rem 2% 2rem 2%;
+    }
+
+    .Sunday, .Tuesday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .Thursday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .Sunday-service, .Tuesday-service, .Thursday-service{
+        font-family: 'Fira Sans';
+        margin: 1rem 0rem 0.9rem 0rem;
+        font-size: 3.9rem;
+    }
+
+    .Sunday-txt, .Tuesday-txt, .Thursday-txt{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin: 2rem 5rem 5rem 5rem;
+        text-align: left;
+        font-size: 2.1rem;
+    }    
+    
+
+    /*CSS for media and the like html codes starts HERE!!!*/
+
+        .media-carousel{
+            position: relative;
+            bottom: 0.2rem;
+        }
+
+        .vid{
+            margin: 10rem 0rem 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .video-check{
+            margin-bottom: 1rem;
+        }
+
+        iframe{
+            max-width: 90%;
+            height: 26rem;
+        }
+
+        audio{
+            width: 50%;
+        }
+
+        .video-check a, .down-sermons a{
+            text-decoration: none;
+            color:navy;
+        }
+
+        .d-ser, .d-vid{
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        /*CSS for media and the like html codes stops HERE!!!*/
+
+    footer{
+        background-color: #00252E;
+        height: 43rem;
+    }
+
+
+    .church-name-logo{
+        margin-top: 3rem;
+        margin-left: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .log-par img{
+        width: 90px;
+        height: 90px;
+        margin-right: 10px;
+    }
+
+    .church-name{
+        font-family: 'Open Sans';
+        color: white;
+    }
+
+    .rccg{
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    .parish{
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+
+    .contact-us a{
+        color:white;
+    }
+
+    .contact-us a:hover{
+        text-decoration: none;
+        color: yellow;
+    }
+
+    .contact-useful{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: rgb(230, 243, 53);
+        margin: 5rem 0px 0px 5rem;
+    }
+
+    .links{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: rgb(230, 243, 53);
+        margin: 5rem 0px 0px 2rem;
+
+    }
+
+    .location, .phone{
+        margin: 20px 0px 0px 5rem;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .loc img, .fone img{
+        margin-right: 20px;
+        width: 32px;
+    }
+
+    .address{
+        width: 60%;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .call{
+        font-size: 2rem;
+    }
+
+    .media-contact{
+        display: flex;
+        margin: 20px 0px 0px 30px;
+    }
+
+    .e-mail, .facebook, .whatsapp{
+        margin-right: 10px;
+    }
+
+    .gmail img{
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .fb img, .whatsapp img{
+        width: 40px;
+    }
+
+    .use-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .use-col a{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .use-col a:hover{
+        text-decoration: none;
+        color: yellow;
+    }
+
+    .pic-vid, .blog, .Sermons, .About, .giving{
+        margin: 20px 0px 0px 30px;
+        color: white;
+    
+    }
+
+
+
+
+    .back-to-top{
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .back-to-top a{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .back-to-top a:hover{
+        text-decoration: none;
+        color:yellow;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .up{
+        /* background-image: url(hands.jpg); */
+        background-image: url(hands2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        max-width: 100%;
+        height: 512px;
+        position: relative;
+        top: 4rem;
+    }
+
+
+    .top{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.8rem;
+        font-size: 0.9rem;    
+    }
+    
+    img.logo-gif{
+        width: 34px;
+        margin-left: 0rem;
+    }
+
+    .carousel{
+        margin: 4rem 0% 3rem 0%;
+    }
+
+    .week{
+        font-family: 'Fira Sans';
+        margin: 6rem 0rem 0rem 0rem;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .week-words{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0.6rem 8% 1rem 8%;
+    }
+
+
+    .weekly{
+        display: flex;
+        margin: 0.6rem 2% 2rem 2%;
+    }
+
+    .Sunday, .Tuesday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 0px solid black;
+        margin-right: 0.8rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92); */
+    }
+
+    .Thursday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 0px solid black;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92); */
+    }
+
+    .Sunday-service, .Tuesday-service, .Thursday-service{
+        font-family: 'Fira Sans';
+        margin: 2rem 0rem 1rem 0rem;
+        font-size: 1.2rem;
+    }
+
+    .Sunday-txt, .Tuesday-txt, .Thursday-txt{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin: 0rem 0.7rem 1.5rem 0.7rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }    
+    
+
+    /*CSS for media and the like html codes starts HERE!!!*/
+
+        .media-carousel{
+            position: relative;
+            bottom: 0.2rem;
+        }
+
+        .vid{
+            margin: 5rem 0rem 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .video-check{
+            margin-bottom: 1rem;
+        }
+
+        iframe{
+            max-width: 80%;
+            height: 22rem;
+        }
+
+        audio{
+            width: 80%;
+        }
+
+        .video-check a, .down-sermons a{
+            text-decoration: none;
+            color:navy;
+        }
+
+        .d-ser, .d-vid{
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /*CSS for media and the like html codes stops HERE!!!*/
+
+}
+
+@media screen and (max-width: 768px){
+
+    .up{
+        /* background-image: url(hands.jpg); */
+        background-image: url(hands2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        max-width: 100%;
+        height: 384px;
+        position: relative;
+        top: 3.8rem;        
+    }
+
+    .top{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.8rem;
+        font-size: 0.9rem;    
+    }
+    
+    img.logo-gif{
+        width: 34px;
+        margin-left: 0rem;
+    }
+
+    .carousel{
+        margin: 2rem 0% 3rem 0%;
+    }
+
+    .week{
+        font-family: 'Fira Sans';
+        margin: 6rem 0rem 0rem 0rem;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .week-words{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 0.6rem 8% 1rem 8%;
+    }
+
+
+    .weekly{
+        display: flex;
+        margin: 0.6rem 2% 2rem 2%;
+    }
+
+    .Sunday, .Tuesday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 0px solid black;
+        margin-right: 0.8rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92);
+    }
+
+    .Thursday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 0px solid black;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92);
+    }
+
+    .Sunday-service, .Tuesday-service, .Thursday-service{
+        font-family: 'Fira Sans';
+        margin: 2rem 0rem 1rem 0rem;
+        font-size: 1.2rem;
+    }
+
+    .Sunday-txt, .Tuesday-txt, .Thursday-txt{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin: 0rem 0.7rem 2rem 0.7rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }    
+    
+    .Sunday:hover, .Tuesday:hover, .Thursday:hover{
+        -webkit-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        -moz-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        -o-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        transform: scale(1.03);
+    }
+
+    /*CSS for media and the like html codes starts HERE!!!*/
+
+        .media-carousel{
+            position: relative;
+            bottom: 0.2rem;
+        }
+
+        .vid{
+            margin: 5rem 0rem 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .video-check{
+            margin-bottom: 1rem;
+        }
+
+        iframe{
+            max-width: 80%;
+            height: 16rem;
+        }
+
+        audio{
+            width: 80%;
+        }
+
+        .video-check a, .down-sermons a{
+            text-decoration: none;
+            color:navy;
+        }
+
+        .d-ser, .d-vid{
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /*CSS for media and the like html codes stops HERE!!!*/
+
+        footer{
+            background-color: #00252E;
+            height: 27.5rem;
+        }
+
+}
+
+@media screen and (max-width: 425px){
+
+    .up{
+        background-image: url(hands425.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 11.25rem;
+        margin-top: -0.4rem;   
+    }
+
+    .container-fluid{
+        width: 375px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .top{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img.logo-gif{
+        width: 29px;
+        margin-left: 0rem;
+    }
+
+    .right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.8rem;
+        font-size: 0.8rem;    
+    }
+
+    .carousel{
+        margin: 2rem 0% 3rem 0%;
+    }
+
+    .week{
+        font-family: 'Fira Sans';
+        margin: 6rem 0rem 0rem 0rem;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .week-words{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 0.6rem;
+        text-align: center;
+        margin: 0.6rem 8% 1rem 8%;
+    }
+
+
+    .weekly{
+        display: flex;
+        margin: 0.6rem 2% 2rem 2%;
+    }
+
+    .Sunday, .Tuesday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 0px solid black;
+        margin-right: 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92);
+    }
+
+    .Thursday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 0px solid black;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92);
+    }
+
+    .Sunday-service, .Tuesday-service, .Thursday-service{
+        font-family: 'Fira Sans';
+        margin: 1rem 0rem 0.6rem 0rem;
+        font-size: 1rem;
+    }
+
+    .Sunday-txt, .Tuesday-txt, .Thursday-txt{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin: 0rem 0.6rem 0.8rem 0.6rem;
+        text-align: center;
+        font-size: 0.5rem;
+    }    
+    
+    .Sunday:hover, .Tuesday:hover, .Thursday:hover{
+        -webkit-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        -moz-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        -o-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        transform: scale(1.03);
+    }
+
+    /*CSS for media and the like html codes starts HERE!!!*/
+
+        .media-carousel{
+            position: relative;
+            bottom: 0.2rem;
+        }
+
+        .vid{
+            margin: 3rem 0rem 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .video-check{
+            margin-bottom: 1rem;
+        }
+
+        iframe{
+            max-width: 80%;
+            height: 9rem;
+        }
+
+        audio{
+            width: 80%;
+        }
+
+        .video-check a, .down-sermons a{
+            text-decoration: none;
+            color:navy;
+        }
+
+        .d-ser, .d-vid{
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /*CSS for media and the like html codes stops HERE!!!*/
+    
+        footer{
+            background-color: #00252E;
+            height: 26.5rem;
+        }
+    
+        .empty{
+            background-color: #00252E;
+            height: 2rem;
+        }
+            
+        .ill img{
+            width: 100%;
+            position: relative;
+        
+        }
+        
+        .church-name-logo{
+            display: flex;
+            /* align-items: center;
+            justify-content: center; */
+            margin: 16px 5% 0px 5%;
+        }
+        
+        .log-par img{
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+        }
+        
+        .church-name{
+            font-family: 'Open Sans';
+            color: white;
+        }
+        
+        .rccg{
+            font-weight: 600;
+            font-size: 0.7rem;
+            margin-bottom: 0;
+        }
+        
+        .parish{
+            font-weight: 400;
+            font-size: 0.6rem;
+            margin-bottom: 0;
+        }
+        
+        .contact-useful{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        
+    
+        
+        .contact{
+            font-family: 'Open Sans';
+            font-weight: 600;
+            font-size: 1rem;
+            color: rgb(230, 243, 53);
+            margin: 8% 0px 0px 5%;
+        }
+        
+        .links{
+            font-family: 'Open Sans';
+            font-weight: 600;
+            font-size: 1rem;
+            color: rgb(230, 243, 53);
+            margin: 5% 0px 0px 5%;
+        }
+    
+        .location, .phone{
+            margin: 10px 0px 0px 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+    
+        .call{
+            font-size: 0.7rem;
+        }
+        
+        .loc img, .fone img{
+            margin-right: 10px;
+            width: 14px;
+        }
+        
+        .address{
+            width: 80%;
+            font-family: 'Open Sans';
+            font-weight: 400;
+            font-size: 0.7rem;
+        }
+        
+        .media-contact{
+            display: flex;
+            margin: 20px 0px 0px 10px;
+            
+        }
+    
+        .Useful-links{
+            margin: 0rem 0% 0rem 0%;
+            width: 425px;
+        }
+    
+        
+        .e-mail, .facebook, .whatsapp{
+            margin: 0px 10px 0px 10px;
+        }
+        
+        .gmail img{
+            width: 18px;
+            margin-top: 3px;
+        }
+        
+        .fb img, .whatsapp img{
+            width: 18px;
+        }
+        
+        .use-col{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+    }
+        
+        .pic-vid, .blog, .Sermons, .About, .giving{
+            margin: 20px 0px 0px 20px;
+            color: white;
+            font-size: 0.7rem;
+           
+        }
+        
+        
+        
+        
+        .back-to-top{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+}
+
+@media screen and (max-width: 375px){
+    .up{
+        background-image: url(hands375.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 11.25rem;
+        margin-top: -0.4rem;   
+    }
+
+    .container-fluid{
+        width: 375px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .top{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+    
+    .church-logo{
+        display: flex;
+        
+    }
+    
+    a{
+        text-decoration: none;
+        color:white;
+        font-family: 'Open Sans';
+        
+    }
+    
+    .right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.8rem;
+        font-size: 0.6rem;    
+    }
+    
+    img.logo-gif{
+        width: 29px;
+        margin-left: 0rem;
+    }
+    
+    .redeem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        color: white;
+        margin-top: 5rem;
+    }
+    
+
+    .carousel{
+        margin: 2rem 0% 3rem 0%;
+    }
+
+    .week{
+        font-family: 'Fira Sans';
+        margin: 6rem 0rem 0rem 0rem;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .week-words{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 0.6rem;
+        text-align: center;
+        margin: 0.6rem 8% 1rem 8%;
+    }
+
+
+    .weekly{
+        display: flex;
+        margin: 0.6rem 2% 2rem 2%;
+    }
+
+    .Sunday, .Tuesday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 0px solid black;
+        margin-right: 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92);
+    }
+
+    .Thursday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 0px solid black;
+        border-radius: 0.5rem;
+        box-shadow: 0px 3px 5px rgb(95, 92, 92);
+    }
+
+    .Sunday-service, .Tuesday-service, .Thursday-service{
+        font-family: 'Fira Sans';
+        margin: 1rem 0rem 0.6rem 0rem;
+        font-size: 0.9rem;
+    }
+
+    .Sunday-txt, .Tuesday-txt, .Thursday-txt{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin: 0rem 0.6rem 0.8rem 0.6rem;
+        text-align: center;
+        font-size: 0.4rem;
+    }    
+    
+    .Sunday:hover, .Tuesday:hover, .Thursday:hover{
+        -webkit-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        -moz-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        -o-box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        box-shadow:rgba(0,0,0,0.8) 0px 2px 5px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+        transform: scale(1.03);
+    }
+
+    /*CSS for media and the like html codes starts HERE!!!*/
+
+        .media-carousel{
+            position: relative;
+            bottom: 0.2rem;
+        }
+
+        .vid{
+            margin: 3rem 0rem 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .video-check{
+            margin-bottom: 1rem;
+        }
+
+        iframe{
+            max-width: 80%;
+            height: 7rem;
+        }
+        audio{
+            width: 80%;
+        }
+
+        .video-check a, .down-sermons a{
+            text-decoration: none;
+            color:navy;
+        }
+
+        .d-ser, .d-vid{
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /*CSS for media and the like html codes stops HERE!!!*/
+
+
+    footer{
+        background-color: #00252E;
+        height: 26.5rem;
+    }
+
+    .empty{
+        background-color: #00252E;
+        height: 2rem;
+    }
+        
+    .ill img{
+        width: 100%;
+        position: relative;
+    
+    }
+    
+    .church-name-logo{
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        margin: 16px 5% 0px 5%;
+    }
+    
+    .log-par img{
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+    
+    .church-name{
+        font-family: 'Open Sans';
+        color: white;
+    }
+    
+    .rccg{
+        font-weight: 600;
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    
+    .parish{
+        font-weight: 400;
+        font-size: 0.6rem;
+        margin-bottom: 0;
+    }
+    
+    .contact-useful{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+
+    
+    .contact{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgb(230, 243, 53);
+        margin: 8% 0px 0px 5%;
+    }
+    
+    .links{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgb(230, 243, 53);
+        margin: 5% 0px 0px 5%;
+    }
+
+    .location, .phone{
+        margin: 10px 0px 0px 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .call{
+        font-size: 0.7rem;
+    }
+    
+    .loc img, .fone img{
+        margin-right: 10px;
+        width: 14px;
+    }
+    
+    .address{
+        width: 80%;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+    
+    .media-contact{
+        display: flex;
+        margin: 20px 0px 0px 10px;
+        
+    }
+
+    .Useful-links{
+        margin: 0rem 0% 0rem 0%;
+        width: 375px;
+    }
+
+    
+    .e-mail, .facebook, .whatsapp{
+        margin: 0px 10px 0px 10px;
+    }
+    
+    .gmail img{
+        width: 18px;
+        margin-top: 3px;
+    }
+    
+    .fb img, .whatsapp img{
+        width: 18px;
+    }
+    
+    .use-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+    
+    .pic-vid, .blog, .Sermons, .About, .giving{
+        margin: 20px 0px 0px 20px;
+        color: white;
+        font-size: 0.7rem;
+       
+    }
+    
+    
+    
+    
+    .back-to-top{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .up{
+        background-image: url(hands320.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 9.63rem;
+        margin-top: -0.4rem;
+        
+    }
+
+
+    .Useful-links{
+        margin: 0rem 0% 0rem 0%;
+        width: 320px;
+    }
+
+}
+
+
+
+
+
