@@ -1587,7 +1587,7 @@ footer{
     }
 
     button.navbar-toggler{
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
 
     /* .navbar{
