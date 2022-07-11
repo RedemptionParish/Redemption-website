@@ -12,12 +12,12 @@ body{
 }
 
 .up{
-    height: 50rem;
+    /* max-height: 20rem;     */
 }
 
 .up img{
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
+    height: 43rem;
     position: relative;
     top: 4rem;    
 }
@@ -78,6 +78,7 @@ img.logo-gif{
 
 .navbar{
     max-width: 100%;
+
 }
 
 .navbar-nav.mr-auto{
@@ -114,11 +115,12 @@ a.navbar-brand{
 }
 
 .carousel{
-    margin: 4rem 3% 10rem 3%;
+    margin: 4rem 5% 6rem 5%;
 }
 
 .carousel-inner img{
-    height: 48rem;
+    height: 45rem;
+    width: 100%;
 }
 
 .week{
@@ -222,12 +224,12 @@ a.navbar-brand{
     margin: 0% 0% 0% 0%;
     position: relative;
     bottom: 0.2rem;
-    height: 680px;
+    /* height: 42rem; */
 }
 
 .media-inner img{
-    width: auto;
-    height: 42rem;
+    width: 100%;
+    height: 44rem;
 }
 
 .d-block, .w-100{
@@ -241,13 +243,8 @@ a.navbar-brand{
     text-align: center;
 }
 
-.video-check{
-    margin-bottom: 1rem;
-}
-
-.fb-vid iframe{
-    width: 80%;
-    height: 30rem;
+video{
+    width: 90%;
 }
 
 audio{
@@ -271,7 +268,6 @@ audio{
 
 footer{
     background-color: #00252E;
-    height: 28rem;
 }
 
 .empty{
@@ -357,12 +353,13 @@ footer{
 
 .media-contact{
     display: flex;
-    margin: 20px 0px 0px 30px;
+    margin: 20px 0px 0px 10px;
+    justify-content: center;
 }
 
 .Useful-links{
     margin: 0rem 3% 0rem 0%;
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -403,7 +400,7 @@ footer{
 .back-to-top{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .back-to-top a{
@@ -415,17 +412,26 @@ footer{
     color:yellow;
 }
 
+.bot-space{
+    background-color:#00252E ;
+    height: 2rem;
+    position: relative;
+    top: -1rem;
+    z-index: -1;
+}
+
 
 @media screen and (min-width: 1441px){
 
-    .up{
+    /* .up{
         height: 1280px;
         position: relative;
         top: 2rem;
-    }
+    } */
 
     .up img{
         width: 100%;
+        height: 100%;
     }
 
 
@@ -534,12 +540,13 @@ footer{
         .media-car{
             position: relative;
             bottom: 4rem;
-            width: auto;
-            height: 1280px;
+            /* width: auto;
+            height: 1280px; */
         }
 
         .media-inner img{
-            height: 1280px;
+            width: 100%;
+            height: 100%;
         }
 
         .vid{
@@ -549,14 +556,10 @@ footer{
             text-align: center;
         }
 
-        .video-check{
-            margin-bottom: 1rem;
+        video{
+            width: 90%;
         }
 
-        .fb-vid iframe{
-            max-width: 90%;
-            height: 54rem;
-        }
 
         audio{
             width: 50%;
@@ -577,7 +580,6 @@ footer{
 
     footer{
         background-color: #00252E;
-        height: 43rem;
     }
 
 
@@ -663,7 +665,8 @@ footer{
 
     .media-contact{
         display: flex;
-        margin: 20px 0px 0px 30px;
+        margin: 20px 0px 0px 0px;
+        justify-content: center;
     }
 
     .e-mail, .facebook, .whatsapp{
@@ -707,11 +710,12 @@ footer{
         display: flex;
         justify-content: center;
         margin-top: 4rem;
+        font-size: 2rem;
     }
 
     .back-to-top a{
         color: white;
-        font-size: 2rem;
+        
     }
 
     .back-to-top a:hover{
@@ -719,20 +723,29 @@ footer{
         color:yellow;
     }
 
+    .bot-space{
+        background-color:#00252E ;
+        height: 2rem;
+        position: relative;
+        top: -1rem;
+        z-index: -1;
+    }
+
 }
 
 @media screen and (max-width: 1024px){
 
-    .up{
+    /* .up{
         max-width: 1024px;
         height: 612px;
         
-    }
+    } */
 
     .up img{
         position: relative;
-        top: 4.5rem;
-        width: 1024px;
+        top: 4.3rem;
+        height: 100%;
+        width: 100%;
     }
 
 
@@ -773,12 +786,17 @@ footer{
     }
 
     .carousel{
-        margin: 4rem 0% 3rem 0%;
+        margin: 4rem 3% 3rem 3%;
+    }
+
+    .carousel-inner img{
+        height: 40rem;
+        width: 100%;
     }
 
     .week{
         font-family: 'Fira Sans';
-        margin: 6rem 0rem 0rem 0rem;
+        margin: 9rem 0rem 0rem 0rem;
         font-weight: 600;
         text-align: center;
         font-size: 2.8rem;
@@ -848,14 +866,10 @@ footer{
             text-align: center;
         }
 
-        .video-check{
-            margin-bottom: 1rem;
+        video{
+            width: 90%;
         }
 
-        iframe{
-            max-width: 80%;
-            height: 22rem;
-        }
 
         audio{
             width: 80%;
@@ -896,13 +910,21 @@ footer{
             font-size: 0.9rem;
             margin-bottom: 0rem;
         }
+
+        .bot-space{
+            background-color:#00252E ;
+            height: 2rem;
+            position: relative;
+            top: -1rem;
+            z-index: -1;
+        }
 }
 
 @media screen and (max-width: 768px){
 
-    .up{
+    /* .up{
         height: 31.5rem;
-    }
+    } */
 
     .up img{
         width: 100%;
@@ -967,8 +989,7 @@ footer{
     }
 
     .carousel-inner img{
-        width: 768px;
-        height: 580px;
+        height: 20%;
     }
 
     .week{
@@ -1001,9 +1022,9 @@ footer{
         text-align: center;
         background-color: #F5F7FA;
         margin: 0rem 10% 2rem 10%;
-        /* border: 0px solid black;
-        margin-right: 0.5rem;
         border-radius: 0.5rem;
+        /* border: 0px solid black;
+        margin-right: 0.5rem;   
         box-shadow: 0px 3px 5px rgb(95, 92, 92); */
     }
 
@@ -1014,8 +1035,8 @@ footer{
         text-align: center;
         background-color: #F5F7FA;
         margin: 0rem 10% 3% 10%;
-        /* border: 0px solid black;
         border-radius: 0.5rem;
+        /* border: 0px solid black;
         box-shadow: 0px 3px 5px rgb(95, 92, 92); */
     }
 
@@ -1051,7 +1072,6 @@ footer{
         .media-car{
             position: relative;
             bottom: 0.2rem;
-            height: 30rem;
         }
 
         .media-inner img{
@@ -1066,13 +1086,8 @@ footer{
             text-align: center;
         }
 
-        .video-check{
-            margin-bottom: 1rem;
-        }
-
-        .fb-vid iframe{
-            width: 80%;
-            height: 16rem;
+        video{
+            width: 90%;
         }
 
         audio{
@@ -1094,7 +1109,6 @@ footer{
     
         footer{
             background-color: #00252E;
-            height: 35rem;
         }
     
         .empty{
@@ -1153,7 +1167,7 @@ footer{
             font-weight: 600;
             font-size: 1.6rem;
             color: rgb(230, 243, 53);
-            margin: 4% 0px 0px 1%;
+            margin: 4% 0px 0px 0%;
         }
         
         .links{
@@ -1161,11 +1175,11 @@ footer{
             font-weight: 600;
             font-size: 1.6rem;
             color: rgb(230, 243, 53);
-            margin: 5% 0px 0px 3%;
+            margin: 5% 0px 0px 0%;
         }
     
         .location, .phone{
-            margin: 10px 0px 0px 1%;
+            margin: 10px 0px 0px 0%;
             color: white;
             display: flex;
             align-items: center;
@@ -1191,7 +1205,8 @@ footer{
         
         .media-contact{
             display: flex;
-            margin: 20px 0px 0px 10px;
+            margin: 20px 0px 0px 0rem;
+            justify-content: center;
             
         }
     
@@ -1221,19 +1236,17 @@ footer{
         
         .pic-vid, .blog, .Sermons, .About, .giving{
             font-family: 'Open Sans';
-            margin: 20px 0px 0px 20px;
+            margin: 20px 0px 0px 0px;
             color: white;
             font-size: 1.1rem;
             font-weight: 500;
             
         }
         
-        
-        
-        
         .back-to-top{
             display: flex;
             justify-content: center;
+            font-family: 'Open Sans';
             margin-top: 30px;
             font-weight: 500;
             font-size: 1.1rem;
@@ -1243,9 +1256,9 @@ footer{
 
 @media screen and (max-width: 425px){
 
-    .up{
+    /* .up{
         height: 20rem;
-    }
+    } */
 
     .up img{
         width: 100%;
@@ -1314,8 +1327,7 @@ footer{
     }
 
     .carousel-inner img{
-        width: 425px;
-        height: 425px;
+        height: 100%;
     }
 
     .week{
@@ -1348,9 +1360,9 @@ footer{
         text-align: center;
         background-color: #F5F7FA;
         margin: 0rem 5% 2rem 5%;
+        border-radius: 0.5rem;
         /* border: 0px solid black;
         margin-right: 0.5rem;
-        border-radius: 0.5rem;
         box-shadow: 0px 3px 5px rgb(95, 92, 92); */
     }
 
@@ -1361,8 +1373,8 @@ footer{
         text-align: center;
         background-color: #F5F7FA;
         margin: 0rem 5% 0% 5%;
-        /* border: 0px solid black;
         border-radius: 0.5rem;
+        /* border: 0px solid black;
         box-shadow: 0px 3px 5px rgb(95, 92, 92); */
     }
 
@@ -1390,208 +1402,201 @@ footer{
 
     /*CSS for media and the like html codes starts HERE!!!*/
 
-        .navbar{
-            display: grid;
-            grid-template-columns: 3fr 1fr!important;
-        }
+    .navbar{
+        display: grid;
+        grid-template-columns: 3fr 1fr!important;
+    }
 
-        .media-car{
-            position: relative;
-            bottom: 0.2rem;
-            width: auto;
-            height: 425px;
-        }
+    .media-car{
+        position: relative;
+        bottom: 0.5rem;
+    }
 
-        .media-inner img{
-            height: 425px;
-        }
+    .media-inner img{
+        height: 100%;
+        width: 100%;
+    }
 
-        .vid{
-            margin: 3rem 0rem 3rem 0rem;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
+    /* .vid{
+        margin: 3rem 0rem 3rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } */
 
-        .video-check{
-            margin-bottom: 1rem;
-        }
+    video{
+        width: 90%;
+    }
 
-        .fb-vid iframe{
-            width: 80%;
-            height: 9rem;
-        }
+    audio{
+        width: 80%;
+    }
 
-        audio{
-            width: 80%;
-        }
+    .video-check a, .down-sermons a{
+        text-decoration: none;
+        color:navy;
+    }
 
-        .video-check a, .down-sermons a{
-            text-decoration: none;
-            color:navy;
-        }
+    .d-ser, .d-vid{
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+    }
 
-        .d-ser, .d-vid{
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 500;
-        }
+    /*CSS for media and the like html codes stops HERE!!!*/
 
-        /*CSS for media and the like html codes stops HERE!!!*/
-    
-        footer{
-            background-color: #00252E;
-            height: 32rem;
-        }
-    
-        .empty{
-            background-color: #00252E;
-            height: 2rem;
-        }
-            
-        .ill img{
-            width: 100%;
-            position: relative;
-        
-        }
-        
-        .church-name-logo{
-            display: flex;
-            /* align-items: center;
-            justify-content: center; */
-            margin: 16px 5% 0px 5%;
-        }
-        
-        .log-par img{
-            width: 42px;
-            height: 42px;
-            margin-right: 8px;
-        }
-        
-        .church-name{
-            font-family: 'Open Sans';
-            color: white;
-        }
-        
-        .rccg{
-            font-weight: 600;
-            font-size: 0.9rem;
-            margin-bottom: 0.2rem;
-        }
-        
-        .parish{
-            font-weight: 500;
-            font-size: 0.8rem;
-            margin-bottom: 0rem;
-        }
-        
-        .contact-useful{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-        }
-        
-    
-        
-        .contact{
-            font-family: 'Open Sans';
-            font-weight: 600;
-            font-size: 1.4rem;
-            color: rgb(230, 243, 53);
-            margin: 8% 0px 0px 0%;
-        }
-        
-        .links{
-            font-family: 'Open Sans';
-            font-weight: 600;
-            font-size: 1.4rem;
-            color: rgb(230, 243, 53);
-            margin: 5% 0px 0px 5%;
-        }
-    
-        .location, .phone{
-            margin: 10px 0px 0px 0px;
-            color: white;
-            display: flex;
-            align-items: center;
-        }
-    
-        .call{
-            font-family: 'Open Sans';
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-        
-        .loc img, .fone img{
-            margin-right: 10px;
-            width: 14px;
-        }
-        
-        .address{
-            width: 80%;
-            font-family: 'Open Sans';
-            font-weight: 500;
-            font-size: 0.9rem;
-        }
-        
-        .media-contact{
-            display: flex;
-            margin: 20px 0px 0px 20px;
-            
-        }
-    
-        .Useful-links{
-            margin: 0rem 0% 0rem 0%;
-            max-width: 100%;
-        }
-    
-        
-        .e-mail, .facebook, .whatsapp{
-            margin: 0px 10px 0px 10px;
-        }
-        
-        .gmail img{
-            width: 18px;
-            margin-top: 3px;
-        }
-        
-        .fb img, .whatsapp img{
-            width: 18px;
-        }
-        
-        .use-col{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+    footer{
+        background-color: #00252E;
+    }
+
+    .empty{
+        background-color: #00252E;
+        height: 2rem;
     }
         
-        .pic-vid, .blog, .Sermons, .About, .giving{
-            font-family: 'Open Sans';
-            margin: 20px 0px 0px 0px;
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 500;
-           
-        }
+    .ill img{
+        width: 100%;
+        position: relative;
+    
+    }
+    
+    .church-name-logo{
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        margin: 16px 5% 0px 5%;
+    }
+    
+    .log-par img{
+        width: 42px;
+        height: 42px;
+        margin-right: 8px;
+    }
+    
+    .church-name{
+        font-family: 'Open Sans';
+        color: white;
+    }
+    
+    .rccg{
+        font-weight: 600;
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .parish{
+        font-weight: 500;
+        font-size: 0.8rem;
+        margin-bottom: 0rem;
+    }
+    
+    .contact-useful{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
+    }
+    
+
+    
+    .contact{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: rgb(230, 243, 53);
+        margin: 2% 0px 0px 0%;
+    }
+    
+    .links{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: rgb(230, 243, 53);
+        margin: 5% 0px 0px 0%;
+    }
+
+    .location, .phone{
+        margin: 10px 0px 0px 0px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .call{
+        font-family: 'Open Sans';
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    .loc img, .fone img{
+        margin-right: 10px;
+        width: 14px;
+    }
+    
+    .address{
+        width: 80%;
+        font-family: 'Open Sans';
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    
+    .media-contact{
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        justify-content: center;
         
-        
-        
-        .back-to-top{
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-            font-weight: 500;
-        }
+    }
+
+    .Useful-links{
+        margin: 0rem 0% 0rem 0%;
+        width: 100%;
+    }
+
+    
+    .e-mail, .facebook, .whatsapp{
+        margin: 0px 10px 0px 10px;
+    }
+    
+    .gmail img{
+        width: 18px;
+        margin-top: 3px;
+    }
+    
+    .fb img, .whatsapp img{
+        width: 18px;
+    }
+    
+    .use-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .pic-vid, .blog, .Sermons, .About, .giving{
+        font-family: 'Open Sans';
+        margin: 20px 0px 0px 0px;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    
+    .back-to-top{
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans';
+        margin-top: 30px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
 
 }
 
 @media screen and (max-width: 375px){
 
-    .up{
+    /* .up{
         height: 16rem;
         margin-bottom: 4rem;
-    }
+    } */
 
     .up img{
         max-width: 100%;
@@ -1682,8 +1687,8 @@ footer{
     }
 
     .carousel-inner img{
-        width: 375px;
-        height: 375px;
+        /* width: 100%; */
+        height: 100%;
     }
 
     .week{
@@ -1759,63 +1764,64 @@ footer{
 
     /*CSS for media and the like html codes starts HERE!!!*/
 
-        .navbar{
-            display: grid;
-            grid-template-columns: 3fr 1fr!important;
-        }
+    .navbar{
+        display: grid;
+        grid-template-columns: 3fr 1fr!important;
+    }
 
-        .media-car{
-            position: relative;
-            top: -1rem;
-            height: 15rem;
-        }
+    .media-car{
+        position: relative;
+        top: -1rem;
+    }
 
-        .media-inner img{
-            max-width: 100%;
-            height: 100%;
-        }
+    .media-inner img{
+        max-width: 100%;
+        height: 100%;
+    }
 
-        .vid{
-            margin: 3rem 0rem 3rem 0rem;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
+    .vid{
+        margin: 3rem 0rem 3rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
-        .video-check{
-            margin-bottom: 1rem;
-        }
+    .video-check{
+        margin-bottom: 1rem;
+    }
 
-        .fb-vid{
-            height: 8rem;
-        }
+    video{
+        width: 90%;
+    }
 
-        .fb-vid iframe{
-            width: 100%;
-            height: 100%;
-        }
 
-        audio{
-            width: 80%;
-        }
 
-        .video-check a, .down-sermons a{
-            text-decoration: none;
-            color:navy;
-        }
+    .fb-vid iframe{
+        width: 100%;
+        height: 100%;
+    }
 
-        .d-ser, .d-vid{
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
+    audio{
+        width: 80%;
+    }
 
-        /*CSS for media and the like html codes stops HERE!!!*/
+    .video-check a, .down-sermons a{
+        text-decoration: none;
+        color:navy;
+    }
+
+    .d-ser, .d-vid{
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    /*CSS for media and the like html codes stops HERE!!!*/
 
 
     footer{
         background-color: #00252E;
-        height: 31rem;
+        height: 100%;
     }
 
     .empty{
@@ -1876,7 +1882,7 @@ footer{
         font-weight: 600;
         font-size: 1.2rem;
         color: rgb(230, 243, 53);
-        margin: 8% 0px 0px 0%;
+        margin: 2% 0px 0px 0%;
     }
     
     .links{
@@ -1884,7 +1890,7 @@ footer{
         font-weight: 600;
         font-size: 1.2rem;
         color: rgb(230, 243, 53);
-        margin: 5% 0px 0px 5%;
+        margin: 0% 0px 0px 5%;
     }
 
     .location, .phone{
@@ -1915,7 +1921,8 @@ footer{
     
     .media-contact{
         display: flex;
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 0px 0rem;
+        justify-content: center;
         
     }
 
@@ -1973,10 +1980,10 @@ footer{
 @media screen and (max-width: 320px){
 
     
-    .up{
+    /* .up{
         height: 12rem;
         margin-bottom: 2rem;
-    }
+    } */
 
     .up img{
         max-width: 100%;
@@ -2077,8 +2084,8 @@ footer{
     }
 
     .carousel-inner img{
-        width: 320px;
-        height: 320px;
+        /* width: 100%; */
+        height: 100%;
     }
 
     
@@ -2092,203 +2099,207 @@ footer{
 
     /*CSS for media and the like html codes starts HERE!!!*/
 
-        .navbar{
-            display: grid;
-            grid-template-columns: 3fr 1fr!important;
-        }
+    .navbar{
+        display: grid;
+        grid-template-columns: 3fr 1fr!important;
+    }
 
-        .media-car{
-            position: relative;
-            bottom: 0.2rem;
-            height: 12rem;
-        }
+    .media-car{
+        position: relative;
+        bottom: 0.2rem;
+        /* height: 12rem; */
+    }
 
-        .media-inner img{
-            width: 100%;
-            height: 100%;
-        }
+    .media-inner img{
+        width: 100%;
+        height: 100%;
+    }
 
-        .vid{
-            margin: 3rem 0rem 3rem 0rem;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
+    .vid{
+        margin: 3rem 0rem 3rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
+
+    video{
+        width: 90%;
+    }
+
+    audio{
+        width: 80%;
+    }
+
+    .video-check a, .down-sermons a{
+        text-decoration: none;
+        color:navy;
+    }
+
+    .d-ser, .d-vid{
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    /*CSS for media and the like html codes stops HERE!!!*/
+
+
+    footer{
+        background-color: #00252E;
+        height: 100%;
+    }
+
+    .empty{
+        background-color: #00252E;
+        height: 2rem;
+    }
         
-        .fb-vid{
-            height: 7rem;
-        }
-
-        .fb-vid iframe{
-            width: 100%;
-            height: 100%;
-        }
-
-        audio{
-            width: 80%;
-        }
-
-        .video-check a, .down-sermons a{
-            text-decoration: none;
-            color:navy;
-        }
-
-        .d-ser, .d-vid{
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-
-        /*CSS for media and the like html codes stops HERE!!!*/
-
-
-        footer{
-            background-color: #00252E;
-            height: 33rem;
-        }
+    .ill img{
+        width: 100%;
+        position: relative;
     
-        .empty{
-            background-color: #00252E;
-            height: 2rem;
-        }
-            
-        .ill img{
-            width: 100%;
-            position: relative;
-        
-        }
-        
-        .church-name-logo{
-            display: flex;;
-            /* align-items: center;
-            justify-content: center; */
-            margin: 16px 5% 0px 5%;
-        }
-        
-        .log-par img{
-            width: 36px;
-            height: 36px;
-            margin-right: 8px;
-        }
-        
-        .church-name{
-            font-family: 'Open Sans';
-            color: white;
-            align-self: center;
-        }
-        
-        .rccg{
-            font-weight: 600;
-            font-size: 0.7rem;
-            margin-bottom: 0.1rem;
-        }
-        
-        .parish{
-            font-weight: 600;
-            font-size: 0.6rem;
-            margin-bottom: 0;
-        }
-        
-        .contact-useful{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-        }
-        
+    }
     
-        
-        .contact{
-            font-family: 'Open Sans';
-            font-weight: 600;
-            font-size: 1.2rem;
-            color: rgb(230, 243, 53);
-            margin: 8% 0px 0px 0%;
-        }
-        
-        .links{
-            font-family: 'Open Sans';
-            font-weight: 600;
-            font-size: 1.2rem;
-            color: rgb(230, 243, 53);
-            margin: 5% 0px 0px 5%;
-        }
+    .church-name-logo{
+        display: flex;;
+        /* align-items: center;
+        justify-content: center; */
+        margin: 16px 5% 0px 5%;
+    }
     
-        .location, .phone{
-            margin: 10px 0px 0px 0px;
-            color: white;
-            display: flex;
-            align-items: center;
-        }
+    .log-par img{
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+    }
     
-        
+    .church-name{
+        font-family: 'Open Sans';
+        color: white;
+        align-self: center;
+    }
     
-        .call{
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
+    .rccg{
+        font-weight: 600;
+        font-size: 0.7rem;
+        margin-bottom: 0.1rem;
+    }
+    
+    .parish{
+        font-weight: 600;
+        font-size: 0.6rem;
+        margin-bottom: 0;
+    }
+    
+    .contact-useful{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
-        .loc img, .fone img{
-            margin-right: 10px;
-            width: 14px;
-        }
-        
-        .address{
-            width: 90%;
-            font-family: 'Open Sans';
-            font-weight: 500;
-            font-size: 0.85rem;
-        }
-        
-        .media-contact{
-            display: flex;
-            margin: 20px 0px 0px 10px;
-            
-        }
+    }
+    
 
     
-        .Useful-links{
-            margin: 2rem 0% 0rem 0%;
-        }
+    .contact{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: rgb(230, 243, 53);
+        margin: 0% 0px 0px 0%;
+    }
     
-        
-        .e-mail, .facebook, .whatsapp{
-            margin: 0px 10px 0px 0px;
-        }
-        
-        .gmail img{
-            width: 18px;
-            margin-top: 3px;
-        }
-        
-        .fb img, .whatsapp img{
-            width: 18px;
-        }
-        
-        .use-col{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        
-        .pic-vid, .blog, .Sermons, .About, .giving{
-            margin: 20px 0px 0px 0px;
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-        
-        
-        
-        
-        .back-to-top{
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
+    .links{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: rgb(230, 243, 53);
+        margin: 0% 0px 0px 5%;
+    }
+
+    .location, .phone{
+        margin: 10px 0px 0px 0px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
     
+
+    .call{
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    
+    .loc img, .fone img{
+        margin-right: 10px;
+        width: 14px;
+    }
+    
+    .address{
+        width: 90%;
+        font-family: 'Open Sans';
+        font-weight: 500;
+        font-size: 0.75rem;
+    }
+    
+    .media-contact{
+        display: flex;
+        margin: 20px 0px 0px 0/7rem;
+        justify-content: center;
+        
+    }
+
+
+    .Useful-links{
+        margin: 1rem 0% 0rem 0%;
+    }
+
+    
+    .e-mail, .facebook, .whatsapp{
+        margin: 0px 10px 0px 0px;
+    }
+    
+    .gmail img{
+        width: 18px;
+        margin-top: 3px;
+    }
+    
+    .fb img, .whatsapp img{
+        width: 18px;
+    }
+    
+    .use-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .pic-vid, .blog, .Sermons, .About, .giving{
+        margin: 20px 0px 0px 0px;
+        color: white;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    
+    
+    
+    
+    .back-to-top{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        font-size: 0.9rem!important;
+        font-weight: 500;
+        background-color: inherit;
+    }
+
+    .bot-space{
+        background-color:#00252E ;
+        height: 2rem;
+        position: relative;
+        top: -1rem;
+        z-index: -1;
+    }
 }
 
 
