@@ -323,6 +323,7 @@ footer{
     font-family: 'Open Sans';
     font-weight: 700;
     color: rgb(230, 243, 53);
+    /* color: rgb(80, 255, 203); */
     margin: 30px 0px 0px 30px;
 }
 
@@ -388,6 +389,7 @@ footer{
 .use-col a:hover{
     text-decoration: none;
     color: yellow;
+   
 }
 
 .pic-vid, .blog, .Sermons, .About, .giving{
@@ -420,6 +422,21 @@ footer{
     z-index: -1;
 }
 
+.coded{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+a.stephen-fisayo{
+    color: yellow;
+    text-decoration: none!important;
+}
+
+.stephen-fisayo:hover{
+    color: rgb(80, 255, 203);
+}
 
 @media screen and (min-width: 1441px){
 
@@ -1579,7 +1596,6 @@ footer{
         font-weight: 500;
     }
     
-    
     .back-to-top{
         display: flex;
         justify-content: center;
@@ -1589,6 +1605,9 @@ footer{
         font-weight: 500;
     }
 
+    .coded{
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -1965,15 +1984,16 @@ footer{
         font-weight: 500;
     }
     
-    
-    
-    
     .back-to-top{
         display: flex;
         justify-content: center;
         margin-top: 30px;
         font-size: 0.9rem;
         font-weight: 500;
+    }
+
+    .coded{
+        font-size: 0.9rem;
     }
 }
 
@@ -2299,6 +2319,10 @@ footer{
         position: relative;
         top: -1rem;
         z-index: -1;
+    }
+
+    .coded{
+        font-size: 0.8rem;
     }
 }
 
