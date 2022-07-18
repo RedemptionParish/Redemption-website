@@ -1059,16 +1059,16 @@ a.stephen-fisayo{
 
     .Sunday-service, .Tuesday-service, .Thursday-service{
         font-family: 'Fira Sans';
-        margin: 4rem 0rem 2.5rem 0rem;
+        margin: 3rem 0rem 2rem 0rem;
         font-size: 2.6rem;
     }
 
     .Sunday-txt, .Tuesday-txt, .Thursday-txt{
         font-family: 'Open Sans';
         font-weight: 400;
-        margin: 0rem 4rem 4rem 4rem;
+        margin: 0rem 4rem 3rem 4rem;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }    
     
     .Sunday:hover, .Tuesday:hover, .Thursday:hover{
